@@ -13,3 +13,7 @@ ol li:before {
   padding: 3px 8px;
   border-radius: 3px;
 }
+
+li {
+  margin-bottom: 5px;
+}
