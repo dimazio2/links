@@ -1,7 +1,14 @@
+body {
+    color: #eee;
+    background-color: #222831;
+}
 
-ol li {
-  list-style-type: none;
-  counter-increment: item;
+ol {
+  font-size: 18px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 ol li:before {
@@ -15,12 +22,18 @@ ol li:before {
   border-radius: 3px;
 }
 
-li {
-  margin-bottom: 10px;
+ol li {
+  list-style-type: none;
+  counter-increment: item;
 }
 
-#list5 { color:#eee; }
-#list5 ol { font-size:18px; }
-#list5 ol li { }
-#list5 ol li ol { list-style-image: url("../images/nested.png"); padding:5px 0 5px 18px; font-size:15px; }
-#list5 ol li ol li { color:#bfe1f1; height:15px; margin-left:10px; }
+ol li ol {
+  counter-reset: item;
+  padding: 10px 0 5px 18px; font-size:15px;
+}
+
+ol li ol li {
+  color:#bfe1f1;
+  height:15px;
+  margin-left:10px;
+}
