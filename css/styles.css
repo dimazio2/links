@@ -1,3 +1,4 @@
+
 ol li {
   list-style-type: none;
   counter-increment: item;
@@ -15,5 +16,11 @@ ol li:before {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
+
+#list5 { color:#eee; }
+#list5 ol { font-size:18px; }
+#list5 ol li { }
+#list5 ol li ol { list-style-image: url("../images/nested.png"); padding:5px 0 5px 18px; font-size:15px; }
+#list5 ol li ol li { color:#bfe1f1; height:15px; margin-left:10px; }
