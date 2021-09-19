@@ -1,4 +1,4 @@
-body {
+ol {
     color: #eee;
     background-color: #222831;
 }
@@ -15,8 +15,8 @@ ol li:before {
   content: counter(item);
   margin-right: 5px;
   font-size: 80%;
-  background-color: #f9dd94;
-  color: #7eb4e2;
+  background-color: #FF2442;
+  color: #FFB830;
   font-weight: bold;
   padding: 3px 8px;
   border-radius: 3px;
@@ -36,4 +36,8 @@ ol li ol li {
   color:#bfe1f1;
   height:15px;
   margin-left:10px;
+}
+
+a {
+    color: #CBF1F5;
 }
