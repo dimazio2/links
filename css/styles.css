@@ -43,3 +43,7 @@ ol li ol li {
 a {
   color: #CBF1F5;
 }
+
+a:hover {
+  color: #3DB2FF;
+}
