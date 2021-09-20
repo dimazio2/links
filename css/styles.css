@@ -1,11 +1,11 @@
-ol {
-  color: #eee;
+body {
   background-color: #222831;
 }
 
 ol {
   padding-top: 20px;
   font-size: 18px;
+  color: #eee;
 }
 
 li {
@@ -32,6 +32,10 @@ ol li ol {
   counter-reset: item;
   padding: 10px 0 5px 18px;
   font-size:15px;
+}
+
+ol li ol li:before {
+  background-color: #002442;
 }
 
 ol li ol li {
